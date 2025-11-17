@@ -24,7 +24,9 @@ This chatbot works perfectly as a floating chat widget inside WordPress or any o
 
 
 📁 Project Structure
+
 sale-assistant/
+
 │── app.py                # Main Flask app
 │── intents.json          # Predefined bot responses
 │── requirements.txt      # Dependencies
@@ -34,16 +36,19 @@ sale-assistant/
 
 
 🧠 How It Works
+
 POST /api/chat
 
 Send a user message → get a bot reply.
 
 Request:
+
 {
   "message": "iphone price"
 }
 
 Response:
+
 {
   "reply": "Phone prices depend on the model and storage. Please tell me the exact model 😊"
 }
@@ -51,13 +56,19 @@ Response:
 GET /health
 
 Returns:
-ok
+
+ok 
+
 Used by Render for health checks and uptime monitoring.
 
 🔧 Tech Requirements
+
 flask
+
 flask-cors
+
 gunicorn
 
 Procfile file:
+
 web: gunicorn app:app
