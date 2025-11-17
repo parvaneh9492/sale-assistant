@@ -1,0 +1,29 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hello", "hi", "hey", "good morning", "good evening"],
+      "responses": ["Hello! How can I help you today?", "Hi there! What can I do for you?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "goodbye", "see you later", "talk to you soon"],
+      "responses": ["Goodbye! Have a nice day!", "See you later!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["thanks", "thank you", "that's helpful"],
+      "responses": ["You're welcome!", "Glad I could help!"]
+    },
+    {
+      "tag": "phone_prices",
+      "patterns": ["show me phone prices", "how much is the iPhone", "price of samsung", "tell me phone prices"],
+      "responses": ["You can check the latest prices on our website emiratephones.com.", "Please visit our shop page for the newest phone prices."]
+    },
+    {
+      "tag": "delivery",
+      "patterns": ["do you deliver", "delivery available", "how long is delivery", "shipping options"],
+      "responses": ["Yes, we offer fast delivery across the UAE.", "Delivery usually takes 1–2 working days within the UAE."]
+    }
+  ]
+}
