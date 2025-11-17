@@ -1,10 +1,10 @@
-📦 Sale Assistant
+# 📦 Sale Assistant
 
 A lightweight and fast Flask-based chatbot API designed to help online stores automatically answer customer questions such as product pricing, availability, delivery time, warranty, and payment details.
 
 This chatbot works perfectly as a floating chat widget inside WordPress or any other website and can be deployed 100% free using Render.
 
-🚀 Features
+## 🚀 Features
 
 ✓ Fast REST API built with Flask
 
@@ -23,19 +23,30 @@ This chatbot works perfectly as a floating chat widget inside WordPress or any o
 ✓ Very easy to customize and extend
 
 
-📁 Project Structure
+## 📁 Project Structure
 
 sale-assistant/
 
-│── app.py                # Main Flask app
-│── intents.json          # Predefined bot responses
-│── requirements.txt      # Dependencies
-│── Procfile              # Render/Gunicorn entry point
-│── README.md             # Documentation
-│── LICENSE               # MIT License
+### Main Flask app
+│── app.py     
+
+### Predefined bot responses
+│── intents.json   
+
+### Dependencies
+│── requirements.txt   
+
+### Render/Gunicorn entry point
+│── Procfile    
+
+### Documentation
+│── README.md  
+
+### MIT License
+│── LICENSE               
 
 
-🧠 How It Works
+## 🧠 How It Works
 
 POST /api/chat
 
@@ -61,7 +72,7 @@ ok
 
 Used by Render for health checks and uptime monitoring.
 
-🔧 Tech Requirements
+## 🔧 Tech Requirements
 
 flask
 
